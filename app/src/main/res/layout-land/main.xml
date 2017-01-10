@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:weightSum="100"
     tools:context="com.plumbaria.pantallatactil.PantallaTactilActivity">
 
@@ -32,7 +32,7 @@
             android:text="Pulsaciones"
             android:layout_weight="75"
             android:id="@+id/TextViewSalida"
-            android:background="@android:color/background_light" />
+            tools:gravity="top|left" />
 
      </ScrollView>
 </LinearLayout>
