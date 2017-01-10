@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Pulsa aquí"
-        android:layout_weight="25"
+        android:layout_weight="75"
         android:background="@color/colorPrimaryDark"
         android:textColor="@android:color/background_light"
         tools:gravity="center_vertical|center_horizontal"
@@ -25,12 +25,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="75">
+        android:layout_weight="25">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Pulsaciones"
-            android:layout_weight="75"
+            android:layout_weight="25"
             android:id="@+id/TextViewSalida"
             tools:gravity="top|left" />
 
